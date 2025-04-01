@@ -1,0 +1,63 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+
+@model IEnumerable<ASP.NET_project.Models.Reservation>
+
+<h1>List of reservations</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            @Html.DisplayNameFor(model => model.id_client)
+        </tr>
+        <tr>
+            @Html.DisplayNameFor(model => model.id_worker)
+        </tr>
+        <tr>
+            @Html.DisplayNameFor(model => model.id_service)
+        </tr>
+        <tr>
+            @Html.DisplayNameFor(model => model.date)
+        </tr>
+        <tr>
+            @Html.DisplayNameFor(model => model.status)
+        </tr>
+        <tr>
+            @Html.DisplayNameFor(model => model.price)
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.id_client)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.id_worker)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.id_service)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.status)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.price)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ID">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,23 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model ASP.NET_project.Models.Reservation
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete Reservation</h1>
+<h3>Are you sure you want to delete this reservation?</h3>
+
+<div>
+    <h4>client id: @Model.id_client, Worker id: @Model.id_worker, Service id: @Model.id_service, Date: @Model.date, Status: @Model.status, Total price: @Model.price</h4>
+    <hr />
+
+    <form asp-action="Delete" method="post">
+        @Html.AntiForgeryToken()
+        <input type="hidden" asp-for="ID" />
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>
