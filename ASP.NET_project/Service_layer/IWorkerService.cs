@@ -1,4 +1,5 @@
 ﻿using ASP.NET_project.Models;
+using ASP.NET_project.ViewModel;
 
 namespace ASP.NET_project.Service_layer
 {
@@ -10,6 +11,8 @@ namespace ASP.NET_project.Service_layer
         void Insert(Worker worker);
         void Update(Worker worker);
         void Delete(int ID);
+
+        IQueryable<WorkerViewModel> GetWorkersPaged(int pageNumber, int pageSize, out int totalItems);
         void Save();
 
     }

@@ -2,13 +2,18 @@
 using ASP.NET_project.Models;
 using ASP.NET_project.Repository;
 using ASP.NET_project.Service_layer;
+using ASP.NET_project.ViewModel;
+using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.Runtime;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace ASP.NET_project.Controllers
 {
+    [Authorize(Roles = "Customer, Admin, Emloyee")]
     public class ClientController : Controller
     {
         //private readonly HairdresserContext _context;
@@ -119,52 +124,124 @@ namespace ASP.NET_project.Controllers
         //}
 
         private readonly IClientService _clientService;
+        private readonly IMapper _mapper;
 
-        public ClientController(IClientService clientService)
+        public ClientController(IClientService clientService, IMapper mapper)
         {
             _clientService = clientService;
+            _mapper = mapper;
         }
 
         [HttpGet]
-        public ActionResult Index()
+        public ActionResult Index(int pageNumber = 1, int pageSize = 3)
         {
-            var model = _clientService.GetAll();
-            return View(model);
+
+            int totalItems;
+            var clients = _clientService.GetClientsPaged(pageNumber, pageSize, out totalItems);
+
+            //var clientViewModel = clients.Select(c => new ClientViewModel{
+
+            //    ID = c.ID,
+            //    name = c.name,
+            //    surname = c.surname,
+            //    email = c.email,
+            //    phone = c.phone
+
+            //});
+
+            var clientViewModel = clients.Select(client => _mapper.Map<ClientViewModel>(client));
+
+            var viewModel = new ClientListViewModel
+            {
+                Clients = clientViewModel,
+                CurrentPage = pageNumber,
+                PageSize = pageSize,
+                TotalPages = (int)Math.Ceiling(totalItems / (double)pageSize),
+                TotalItems = totalItems
+            };
+
+            return View(viewModel);
         }
+
         
         [HttpGet]
+        [Authorize(Roles = "Employee, Admin")]
         public ActionResult Create()
         {
             return View();
         }
-       
+
+        
         [HttpPost]
+        [Authorize(Roles = "Employee, Admin")]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(Client model)
+        public ActionResult Create(ClientViewModel model)
         {
             if (ModelState.IsValid)
             {
-                _clientService.Insert(model);
+                //var client = new Client
+                //{
+                //    name = model.name,
+                //    surname = model.surname,
+                //    email = model.email,
+                //    phone = model.phone
+                //};
+
+                var client = _mapper.Map<Client>(model);
+
+                _clientService.Insert(client);
                 _clientService.Save();
                 return RedirectToAction("Index", "Client");
             }
-            return View();
-        }
-        
-        [HttpGet]
-        public ActionResult Edit(int ID)
-        {
-            Client model = _clientService.GetById(ID);
             return View(model);
         }
+
         
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(Client model)
+        [HttpGet]
+        [Authorize(Roles = "Employee, Admin")]
+        public ActionResult Edit(int ID)
         {
+
+            var client = _clientService.GetById(ID);
+            if (client == null) {
+                return NotFound();
+            }
+
+            //var model = new ClientViewModel
+            //{
+            //    ID = client.ID,
+            //    name = client.name,
+            //    surname = client.surname,
+            //    email = client.email,
+            //    phone = client.phone
+            //};
+
+            var model = _mapper.Map<ClientViewModel>(client);
+
+            return View(model);
+        }
+
+       
+        [HttpPost]
+        [Authorize(Roles = "Employee, Admin")]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(ClientViewModel model)
+        {
+
             if (ModelState.IsValid)
             {
-                _clientService.Update(model);
+                //var client = new Client
+                //{
+                //    ID = model.ID,
+                //    name = model.name,
+                //    surname = model.surname,
+                //    email = model.email,
+                //    phone = model.phone
+                //};
+
+                var client = _mapper.Map<Client>(model);
+
+                _clientService.Update(client);
                 _clientService.Save();
                 return RedirectToAction("Index", "Client");
             }
@@ -173,15 +250,35 @@ namespace ASP.NET_project.Controllers
                 return View(model);
             }
         }
+
         
         [HttpGet]
+        [Authorize(Roles = "Employee, Admin")]
         public ActionResult Delete(int ID)
         {
-            Client model = _clientService.GetById(ID);
+            var client = _clientService.GetById(ID);
+            if (client == null)
+            {
+                return NotFound();
+            }
+
+            //var model = new ClientViewModel
+            //{
+            //    ID = client.ID,
+            //    name = client.name,
+            //    surname = client.surname,
+            //    email = client.email,
+            //    phone = client.phone
+            //};
+
+            var model = _mapper.Map<ClientViewModel>(client);
+
             return View(model);
         }
+
         
         [HttpPost, ActionName("Delete")]
+        [Authorize(Roles = "Employee, Admin")]
         [ValidateAntiForgeryToken]
         public ActionResult Delete_confirm(int ID)
         {

@@ -7,28 +7,144 @@
       "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\service_layer\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\service_layer\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\views\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\views\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\service_layer\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\service_layer\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\controllers\\servicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\controllers\\servicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\service_layer\\serviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\service_layer\\serviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\service_layer\\iserviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\service_layer\\iserviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\views\\admin\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\views\\admin\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\views\\worker\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\views\\worker\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\views\\reservations\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\views\\reservations\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\views\\reservations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\views\\reservations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\views\\worker\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\views\\worker\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\views\\worker\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\views\\worker\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\views\\worker\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\views\\worker\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\views\\services\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\views\\services\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\views\\services\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\views\\services\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\views\\services\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\views\\services\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\views\\services\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\views\\services\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\views\\reservations\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\views\\reservations\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\views\\reservations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\views\\reservations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\views\\client\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\views\\client\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\views\\client\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\views\\client\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\views\\client\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\views\\client\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\views\\client\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\views\\client\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\viewmodel\\userrolesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\viewmodel\\userrolesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\viewmodel\\workerlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\viewmodel\\workerlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\viewmodel\\createuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\viewmodel\\createuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\viewmodel\\edituserrolesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\viewmodel\\edituserrolesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\service_layer\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\service_layer\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\repository\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\repository\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\viewmodel\\clientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\viewmodel\\clientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|d:\\documents\\asp.net_project1\\asp.net_project\\asp.net_project\\asp.net_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908E040F-9CB1-43B5-9BCD-E280AE14CE65}|ASP.NET_project\\ASP.NET_project.csproj|solutionrelative:asp.net_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,85 +153,102 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "DockedWidth": 327,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ReservationsController.cs",
-              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Controllers\\ReservationsController.cs",
-              "RelativeDocumentMoniker": "ASP.NET_project\\Controllers\\ReservationsController.cs",
-              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Controllers\\ReservationsController.cs",
-              "RelativeToolTip": "ASP.NET_project\\Controllers\\ReservationsController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAIUAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T16:23:42.074Z",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Admin\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_project\\Views\\Admin\\Delete.cshtml",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Admin\\Delete.cshtml",
+              "RelativeToolTip": "ASP.NET_project\\Views\\Admin\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T17:04:53.031Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ReservationService.cs",
-              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Service_layer\\ReservationService.cs",
-              "RelativeDocumentMoniker": "ASP.NET_project\\Service_layer\\ReservationService.cs",
-              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Service_layer\\ReservationService.cs",
-              "RelativeToolTip": "ASP.NET_project\\Service_layer\\ReservationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T16:21:47.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IReservationService.cs",
-              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Service_layer\\IReservationService.cs",
-              "RelativeDocumentMoniker": "ASP.NET_project\\Service_layer\\IReservationService.cs",
-              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Service_layer\\IReservationService.cs",
-              "RelativeToolTip": "ASP.NET_project\\Service_layer\\IReservationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T16:20:36.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ServicesController.cs",
-              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Controllers\\ServicesController.cs",
-              "RelativeDocumentMoniker": "ASP.NET_project\\Controllers\\ServicesController.cs",
-              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Controllers\\ServicesController.cs",
-              "RelativeToolTip": "ASP.NET_project\\Controllers\\ServicesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T16:17:38.334Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_project\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ASP.NET_project\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T14:25:32.877Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ServiceService.cs",
-              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Service_layer\\ServiceService.cs",
-              "RelativeDocumentMoniker": "ASP.NET_project\\Service_layer\\ServiceService.cs",
-              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Service_layer\\ServiceService.cs",
-              "RelativeToolTip": "ASP.NET_project\\Service_layer\\ServiceService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T16:14:25.761Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_project\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ASP.NET_project\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T14:34:53.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Worker\\Create.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_project\\Views\\Worker\\Create.cshtml",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Worker\\Create.cshtml",
+              "RelativeToolTip": "ASP.NET_project\\Views\\Worker\\Create.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACUAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T16:53:22.284Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "IServiceService.cs",
-              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Service_layer\\IServiceService.cs",
-              "RelativeDocumentMoniker": "ASP.NET_project\\Service_layer\\IServiceService.cs",
-              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Service_layer\\IServiceService.cs",
-              "RelativeToolTip": "ASP.NET_project\\Service_layer\\IServiceService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T16:13:14.461Z",
+              "Title": "CreateUser.cshtml",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Admin\\CreateUser.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_project\\Views\\Admin\\CreateUser.cshtml",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Admin\\CreateUser.cshtml",
+              "RelativeToolTip": "ASP.NET_project\\Views\\Admin\\CreateUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T17:03:07.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Admin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_project\\Views\\Admin\\Edit.cshtml",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Admin\\Edit.cshtml",
+              "RelativeToolTip": "ASP.NET_project\\Views\\Admin\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T17:04:34.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_project\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "ASP.NET_project\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T17:42:27.145Z",
               "EditorCaption": ""
             },
             {
@@ -126,9 +259,373 @@
               "RelativeDocumentMoniker": "ASP.NET_project\\Program.cs",
               "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Program.cs",
               "RelativeToolTip": "ASP.NET_project\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAABSAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T16:10:33.984Z",
+              "WhenOpened": "2025-05-29T15:14:36.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Reservations\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_project\\Views\\Reservations\\Index.cshtml",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Reservations\\Index.cshtml",
+              "RelativeToolTip": "ASP.NET_project\\Views\\Reservations\\Index.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAAoAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T16:39:44.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Services\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_project\\Views\\Services\\Index.cshtml",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Services\\Index.cshtml",
+              "RelativeToolTip": "ASP.NET_project\\Views\\Services\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAoAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T16:49:34.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Reservations\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_project\\Views\\Reservations\\Edit.cshtml",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Reservations\\Edit.cshtml",
+              "RelativeToolTip": "ASP.NET_project\\Views\\Reservations\\Edit.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T15:54:52.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ASP.NET_project\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ASP.NET_project\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAADkAAAAAAAAAAAAgwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-22T15:24:11.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_project\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "ASP.NET_project\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T17:52:47.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Services\\Create.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_project\\Views\\Services\\Create.cshtml",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Services\\Create.cshtml",
+              "RelativeToolTip": "ASP.NET_project\\Views\\Services\\Create.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACUAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T16:46:24.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Services\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_project\\Views\\Services\\Delete.cshtml",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Services\\Delete.cshtml",
+              "RelativeToolTip": "ASP.NET_project\\Views\\Services\\Delete.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T16:46:17.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Worker\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_project\\Views\\Worker\\Index.cshtml",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Worker\\Index.cshtml",
+              "RelativeToolTip": "ASP.NET_project\\Views\\Worker\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T14:11:15.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Worker\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_project\\Views\\Worker\\Edit.cshtml",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Worker\\Edit.cshtml",
+              "RelativeToolTip": "ASP.NET_project\\Views\\Worker\\Edit.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACYAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T16:52:58.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Worker\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_project\\Views\\Worker\\Delete.cshtml",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Worker\\Delete.cshtml",
+              "RelativeToolTip": "ASP.NET_project\\Views\\Worker\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T16:53:14.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Services\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_project\\Views\\Services\\Edit.cshtml",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Services\\Edit.cshtml",
+              "RelativeToolTip": "ASP.NET_project\\Views\\Services\\Edit.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACYAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T16:40:59.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Reservations\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_project\\Views\\Reservations\\Delete.cshtml",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Reservations\\Delete.cshtml",
+              "RelativeToolTip": "ASP.NET_project\\Views\\Reservations\\Delete.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T14:50:55.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Reservations\\Create.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_project\\Views\\Reservations\\Create.cshtml",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Reservations\\Create.cshtml",
+              "RelativeToolTip": "ASP.NET_project\\Views\\Reservations\\Create.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEEAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T14:50:52.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_project\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "ASP.NET_project\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T13:27:00.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Client\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_project\\Views\\Client\\Index.cshtml",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Client\\Index.cshtml",
+              "RelativeToolTip": "ASP.NET_project\\Views\\Client\\Index.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAE0AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T16:02:20.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Client\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_project\\Views\\Client\\Edit.cshtml",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Client\\Edit.cshtml",
+              "RelativeToolTip": "ASP.NET_project\\Views\\Client\\Edit.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADQAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T14:50:35.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Client\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_project\\Views\\Client\\Delete.cshtml",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Client\\Delete.cshtml",
+              "RelativeToolTip": "ASP.NET_project\\Views\\Client\\Delete.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T14:51:25.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Client\\Create.cshtml",
+              "RelativeDocumentMoniker": "ASP.NET_project\\Views\\Client\\Create.cshtml",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Views\\Client\\Create.cshtml",
+              "RelativeToolTip": "ASP.NET_project\\Views\\Client\\Create.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADEAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T14:51:20.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "ASP.NET_project\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "ASP.NET_project\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAmwF4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:56:50.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserRolesViewModel.cs",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\ViewModel\\UserRolesViewModel.cs",
+              "RelativeDocumentMoniker": "ASP.NET_project\\ViewModel\\UserRolesViewModel.cs",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\ViewModel\\UserRolesViewModel.cs",
+              "RelativeToolTip": "ASP.NET_project\\ViewModel\\UserRolesViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:24:12.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "WorkerListViewModel.cs",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\ViewModel\\WorkerListViewModel.cs",
+              "RelativeDocumentMoniker": "ASP.NET_project\\ViewModel\\WorkerListViewModel.cs",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\ViewModel\\WorkerListViewModel.cs",
+              "RelativeToolTip": "ASP.NET_project\\ViewModel\\WorkerListViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:07:16.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CreateUserViewModel.cs",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\ViewModel\\CreateUserViewModel.cs",
+              "RelativeDocumentMoniker": "ASP.NET_project\\ViewModel\\CreateUserViewModel.cs",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\ViewModel\\CreateUserViewModel.cs",
+              "RelativeToolTip": "ASP.NET_project\\ViewModel\\CreateUserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:09:12.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "EditUserRolesViewModel.cs",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\ViewModel\\EditUserRolesViewModel.cs",
+              "RelativeDocumentMoniker": "ASP.NET_project\\ViewModel\\EditUserRolesViewModel.cs",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\ViewModel\\EditUserRolesViewModel.cs",
+              "RelativeToolTip": "ASP.NET_project\\ViewModel\\EditUserRolesViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:29:13.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ClientViewModel.cs",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\ViewModel\\ClientViewModel.cs",
+              "RelativeDocumentMoniker": "ASP.NET_project\\ViewModel\\ClientViewModel.cs",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\ViewModel\\ClientViewModel.cs",
+              "RelativeToolTip": "ASP.NET_project\\ViewModel\\ClientViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:07:11.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Client.cs",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "ASP.NET_project\\Models\\Client.cs",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Models\\Client.cs",
+              "RelativeToolTip": "ASP.NET_project\\Models\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:07:33.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ClientRepository.cs",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Repository\\ClientRepository.cs",
+              "RelativeDocumentMoniker": "ASP.NET_project\\Repository\\ClientRepository.cs",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Repository\\ClientRepository.cs",
+              "RelativeToolTip": "ASP.NET_project\\Repository\\ClientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:07:49.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Service_layer\\ClientService.cs",
+              "RelativeDocumentMoniker": "ASP.NET_project\\Service_layer\\ClientService.cs",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Service_layer\\ClientService.cs",
+              "RelativeToolTip": "ASP.NET_project\\Service_layer\\ClientService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:08:19.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ASP.NET_project\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Documents\\ASP.NET_project1\\ASP.NET_project\\ASP.NET_project\\ASP.NET_project\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ASP.NET_project\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:34:32.378Z",
               "EditorCaption": ""
             }
           ]

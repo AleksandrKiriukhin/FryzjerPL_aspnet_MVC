@@ -2,12 +2,16 @@
 using ASP.NET_project.Models;
 using ASP.NET_project.Repository;
 using ASP.NET_project.Service_layer;
+using ASP.NET_project.ViewModel;
+using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace ASP.NET_project.Controllers
 {
+    [Authorize(Roles = "Customer, Employee, Admin")]
     public class WorkerController : Controller
     {
         //private readonly HairdresserContext _context;
@@ -124,52 +128,118 @@ namespace ASP.NET_project.Controllers
         //}
 
         private readonly IWorkerService _workerService;
+        private readonly IMapper _mapper;
 
-        public WorkerController(IWorkerService workerService)
+        public WorkerController(IWorkerService workerService, IMapper mapper)
         {
             _workerService = workerService;
+            _mapper = mapper;
         }
 
+        
+
         [HttpGet]
-        public ActionResult Index()
+        [AllowAnonymous]
+        public ActionResult Index(int pageNumber = 1, int pageSize = 3)
         {
-            var model = _workerService.GetAll();
-            return View(model);
+            int totalItems;
+            var workers = _workerService.GetWorkersPaged(pageNumber, pageSize, out totalItems);
+
+            //var workerViewModel = workers.Select(c => new WorkerViewModel
+            //{
+
+            //    ID = c.ID,
+            //    name = c.name,
+            //    surname = c.surname
+
+            //});
+
+            var workerViewModel = workers.Select(worker => _mapper.Map<WorkerViewModel>(worker));
+
+            var viewModel = new WorkerListViewModel
+            {
+                Workers = workerViewModel,
+                CurrentPage = pageNumber,
+                PageSize = pageSize,
+                TotalPages = (int)Math.Ceiling(totalItems / (double)pageSize),
+                TotalItems = totalItems
+            };
+
+            return View(viewModel);
         }
 
+       
         [HttpGet]
+        [Authorize(Roles = "Admin")]
         public ActionResult Create()
         {
             return View();
         }
 
+       
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(Worker model)
+        public ActionResult Create(WorkerViewModel model)
         {
             if (ModelState.IsValid)
             {
-                _workerService.Insert(model);
+                //var worker = new Worker
+                //{
+                //    name = model.name,
+                //    surname = model.surname
+                //};
+
+                var worker = _mapper.Map<Worker>(model);
+
+                _workerService.Insert(worker);
                 _workerService.Save();
                 return RedirectToAction("Index", "Worker");
             }
-            return View();
-        }
-
-        [HttpGet]
-        public ActionResult Edit(int ID)
-        {
-            Worker model = _workerService.GetById(ID);
             return View(model);
         }
 
+        
+        [HttpGet]
+        [Authorize(Roles = "Admin")]
+        public ActionResult Edit(int ID)
+        {
+            var worker = _workerService.GetById(ID);
+            if (worker == null)
+            {
+                return NotFound();
+            }
+
+            //var model = new WorkerViewModel
+            //{
+            //    ID = worker.ID,
+            //    name = worker.name,
+            //    surname = worker.surname
+            //};
+
+            var model = _mapper.Map<WorkerViewModel>(worker);
+
+            return View(model);
+        }
+
+        
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(Worker model)
+        public ActionResult Edit(WorkerViewModel model)
         {
             if (ModelState.IsValid)
             {
-                _workerService.Update(model);
+                //var worker = new Worker
+                //{
+                //    ID = model.ID,
+                //    name = model.name,
+                //    surname = model.surname
+                //};
+
+                var worker = _mapper.Map<Worker>(model);
+
+                _workerService.Update(worker);
                 _workerService.Save();
                 return RedirectToAction("Index", "Worker");
             }
@@ -179,14 +249,32 @@ namespace ASP.NET_project.Controllers
             }
         }
 
+        
         [HttpGet]
+        [Authorize(Roles = "Admin")]
         public ActionResult Delete(int ID)
         {
-            Worker model = _workerService.GetById(ID);
+            var worker = _workerService.GetById(ID);
+            if (worker == null)
+            {
+                return NotFound();
+            }
+
+            //var model = new WorkerViewModel
+            //{
+            //    ID = worker.ID,
+            //    name = worker.name,
+            //    surname = worker.surname
+            //};
+
+            var model = _mapper.Map<WorkerViewModel>(worker);
+
             return View(model);
         }
 
+        
         [HttpPost, ActionName("Delete")]
+        [Authorize(Roles = "Admin")]
         [ValidateAntiForgeryToken]
         public ActionResult Delete_confirm(int ID)
         {

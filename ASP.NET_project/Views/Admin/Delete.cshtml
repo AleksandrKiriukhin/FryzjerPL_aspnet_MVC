@@ -1,0 +1,24 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+
+
+@model Microsoft.AspNetCore.Identity.IdentityUser
+
+
+@{
+    ViewData["Title"] = "Usuń użytkownika";
+}
+
+<h1 class="mb-4 text-center text-danger">@Localizer["Usuń użytkownika"]</h1>
+
+<div class="text-center mb-4">
+    <h4>@Model.Email</h4>
+    <p>@Localizer["Czy na pewno chcesz usunąć tego użytkownika?"]</p>
+</div>
+
+<form asp-action="DeleteUser" method="post" class="text-center">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="Email" />
+    <input type="submit" value="@Localizer["Usuń"]" class="btn btn-danger mr-2" />
+    <a asp-action="Index" class="btn btn-secondary">@Localizer["Anuluj"]</a>
+</form>

@@ -1,4 +1,4 @@
-html {
+﻿html {
   font-size: 14px;
 }
 
@@ -20,3 +20,66 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.bg-gradient-purple-pink {
+    background: linear-gradient(180deg, #5a189a 0%, #c9184a 100%);
+    background-size: cover;
+}
+
+.bg-gradient-purple-pink-horizontal {
+    background: linear-gradient(90deg, #5a189a 0%, #c9184a 100%);
+    background-size: cover;
+    color: white; 
+}
+
+.bg-gradient-purple-pink-horizontal .nav-link,
+.bg-gradient-purple-pink-horizontal .navbar-nav .nav-item a {
+    color: white !important;
+}
+
+.text-pink-purple {
+    color: #5a189a;
+}
+
+.btn-purple {
+    background-color: #5a189a;
+    color: white;
+    border: none;
+}
+
+    .btn-purple:hover {
+        background-color: #4a0f86;
+        color: white;
+    }
+
+.btn-outline-purple {
+    border: 1px solid #5a189a;
+    color: #5a189a;
+    background-color: transparent;
+}
+
+    .btn-outline-purple:hover {
+        background-color: #5a189a;
+        color: white;
+    }
+
+.text-purple {
+    color: #5a189a;
+}
+
+.bg-purple {
+    background-color: #5a189a !important;
+}
+
+.lang-switch {
+    color: white; 
+    text-decoration: none; 
+    margin: 0 5px; 
+    padding: 10px 5px;
+    display: inline-block;
+}
+
+    .lang-switch:hover {
+        color: #dddddd; 
+        text-decoration: none;
+    }

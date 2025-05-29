@@ -1,0 +1,32 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+
+@model ASP.NET_project.ViewModel.EditUserRolesViewModel
+
+@{
+    ViewData["Title"] = "Edytuj role użytkownika";
+}
+
+<h1 class="text-center mb-4">@Localizer["Edytuj role"]: @Model.Email</h1>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label>Role</label>
+        @foreach (var role in Model.AllRoles)
+        {
+            <div class="form-check">
+                <input class="form-check-input"
+                       type="checkbox"
+                       name="roles"
+                       value="@role"
+                @(Model.AssignedRoles.Contains(role) ? "checked" : "") />
+                <label class="form-check-label">@role</label>
+            </div>
+        }
+    </div>
+
+    <button type="submit" class="btn btn-purple">@Localizer["Zapisz"]</button>
+    <a asp-action="Index" class="btn btn-secondary ml-2">@Localizer["Anuluj"]</a>
+</form>

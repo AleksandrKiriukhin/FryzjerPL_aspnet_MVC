@@ -2,12 +2,16 @@
 using ASP.NET_project.Models;
 using ASP.NET_project.Repository;
 using ASP.NET_project.Service_layer;
+using ASP.NET_project.ViewModel;
+using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace ASP.NET_project.Controllers
 {
+    [Authorize(Roles = "Employee, Admin")]
     public class ReservationsController : Controller
     {
         //private readonly HairdresserContext _context;
@@ -124,17 +128,45 @@ namespace ASP.NET_project.Controllers
         //}
 
         private readonly IReservationService _reservationService;
+        private readonly IMapper _mapper;
 
-        public ReservationsController(IReservationService reservationService)
+        public ReservationsController(IReservationService reservationService, IMapper mapper)
         {
             _reservationService = reservationService;
+            _mapper = mapper;
         }
 
         [HttpGet]
-        public ActionResult Index()
+        public ActionResult Index(int pageNumber = 1, int pageSize = 3)
         {
-            var model = _reservationService.GetAll();
-            return View(model);
+            int totalItems;
+            var reservations = _reservationService.GetReservationsPaged(pageNumber, pageSize, out totalItems);
+
+            //var reservationViewModel = reservations.Select(c => new ReservationViewModel
+            //{
+
+            //    ID = c.ID,
+            //    id_client = c.id_client,
+            //    id_worker = c.id_worker,
+            //    id_service = c.id_service,
+            //    date = c.date,
+            //    status = c.status,
+            //    price = c.price,
+
+            //});
+
+            var reservationViewModel = reservations.Select(reservation => _mapper.Map<ReservationViewModel>(reservation));
+
+            var viewModel = new ReservationListViewModel
+            {
+                Reservations = reservationViewModel,
+                CurrentPage = pageNumber,
+                PageSize = pageSize,
+                TotalPages = (int)Math.Ceiling(totalItems / (double)pageSize),
+                TotalItems = totalItems
+            };
+
+            return View(viewModel);
         }
 
         [HttpGet]
@@ -145,31 +177,74 @@ namespace ASP.NET_project.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(Reservation model)
+        public ActionResult Create(ReservationViewModel model)
         {
             if (ModelState.IsValid)
             {
-                _reservationService.Insert(model);
+                //var reservation = new Reservation
+                //{
+                //    id_client = model.id_client,
+                //    id_worker = model.id_worker,
+                //    id_service = model.id_service,
+                //    date = model.date,
+                //    status = model.status,
+                //    price = model.price,
+                //};
+
+                var reservation = _mapper.Map<Reservation>(model);
+
+                _reservationService.Insert(reservation);
                 _reservationService.Save();
                 return RedirectToAction("Index", "Reservations");
             }
-            return View();
+            return View(model);
         }
 
         [HttpGet]
         public ActionResult Edit(int ID)
         {
-            Reservation model = _reservationService.GetById(ID);
+            var reservation = _reservationService.GetById(ID);
+            if (reservation == null)
+            {
+                return NotFound();
+            }
+
+            //var model = new ReservationViewModel
+            //{
+            //    ID = reservation.ID,
+            //    id_client = reservation.id_client,
+            //    id_worker = reservation.id_worker,
+            //    id_service = reservation.id_service,
+            //    date = reservation.date,
+            //    status = reservation.status,
+            //    price = reservation.price,
+            //};
+
+            var model = _mapper.Map<ReservationViewModel>(reservation);
+
             return View(model);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(Reservation model)
+        public ActionResult Edit(ReservationViewModel model)
         {
             if (ModelState.IsValid)
             {
-                _reservationService.Update(model);
+                //var reservation = new Reservation
+                //{
+                //    ID = model.ID,
+                //    id_client = model.id_client,
+                //    id_worker = model.id_worker,
+                //    id_service = model.id_service,
+                //    date = model.date,
+                //    status = model.status,
+                //    price = model.price,
+                //};
+
+                var reservation = _mapper.Map<Reservation>(model);
+
+                _reservationService.Update(reservation);
                 _reservationService.Save();
                 return RedirectToAction("Index", "Reservations");
             }
@@ -182,7 +257,25 @@ namespace ASP.NET_project.Controllers
         [HttpGet]
         public ActionResult Delete(int ID)
         {
-            Reservation model = _reservationService.GetById(ID);
+            var reservation = _reservationService.GetById(ID);
+            if (reservation == null)
+            {
+                return NotFound();
+            }
+
+            //var model = new ReservationViewModel
+            //{
+            //    ID = reservation.ID,
+            //    id_client = reservation.id_client,
+            //    id_worker = reservation.id_worker,
+            //    id_service = reservation.id_service,
+            //    date = reservation.date,
+            //    status = reservation.status,
+            //    price = reservation.price,
+            //};
+
+            var model = _mapper.Map<ReservationViewModel>(reservation);
+
             return View(model);
         }
 

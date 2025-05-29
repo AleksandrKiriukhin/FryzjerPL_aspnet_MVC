@@ -1,26 +1,39 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
 
+@using ASP.NET_project.ViewModel
 
-@model IEnumerable<ASP.NET_project.Models.Worker>
+@model WorkerListViewModel
 
-<h1>List of workers</h1>
+<h1 class="mb-4 text-center text-purple">@Localizer["Lista pracowników"]</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
+<div class="mb-4">
+    <a asp-action="Create" class="btn btn-purple"><i class="fas fa-user-plus"></i> @Localizer["Dodaj nowego pracownika"]</a>
+</div>
+
+<div class="mb-4">
+    <form asp-action="Index" method="get" class="form-inline">
+        <label for="pageSize" class="mr-2">@Localizer["Ilość na stronę"]:</label>
+        <select id="pageSize" name="pageSize" class="form-control mr-2">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+        </select>
+        <button type="submit" class="btn btn-purple">@Localizer["Zastosuj"]</button>
+    </form>
+</div>
+
+<table class="table table-striped table-hover shadow-sm">
+    <thead class="thead-light">
         <tr>
-            @Html.DisplayNameFor(model => model.name)
-        </tr>
-        <tr>
-            @Html.DisplayNameFor(model => model.surname)
+            <th> @Html.DisplayNameFor(model => model.Workers.FirstOrDefault().name)</th>
+            <th> @Html.DisplayNameFor(model => model.Workers.FirstOrDefault().surname)</th>
+            <th>Akcje</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
+        @foreach (var item in Model.Workers)
         {
             <tr>
                 <td>
@@ -30,10 +43,36 @@
                     @Html.DisplayFor(modelItem => item.surname)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.ID">Edit</a>
-                    <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                    <a asp-action="Edit" asp-route-id="@item.ID" class="btn btn-sm btn-outline-purple mr-1">@Localizer["Edytuj"]</a>
+                    <a asp-action="Delete" asp-route-id="@item.ID" class="btn btn-sm btn-outline-danger">@Localizer["Usuń"]</a>
                 </td>
             </tr>
         }
     </tbody>
 </table>
+
+<div>
+    <ul class="pagination justify-content-center">
+        @if (Model.CurrentPage > 1)
+        {
+            <li class="page-item">
+                <a class="page-link text-purple" asp-action="Index" asp-route-pageNumber="@(Model.CurrentPage - 1)" asp-route-pageSize="@Model.PageSize">«</a>
+            </li>
+        }
+        @for (var i = 1; i <= Model.TotalPages; i++)
+        {
+            <li class="page-item @(i == Model.CurrentPage ? "active" : "")">
+                <a class="page-link @(i == Model.CurrentPage ? "text-white bg-purple" : "text-purple")"
+                   asp-action="Index"
+                   asp-route-pageNumber="@i"
+                   asp-route-pageSize="@Model.PageSize">@i</a>
+            </li>
+        }
+        @if (Model.CurrentPage < Model.TotalPages)
+        {
+            <li class="page-item">
+                <a class="page-link text-purple" asp-action="Index" asp-route-pageNumber="@(Model.CurrentPage + 1)" asp-route-pageSize="@Model.PageSize">»</a>
+            </li>
+        }
+    </ul>
+</div>
